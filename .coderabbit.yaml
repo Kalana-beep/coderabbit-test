@@ -1,0 +1,8 @@
+language: "en-US"
+reviews:
+  profile: "assertive"
+  path_instructions:
+    - path: "**/*.py"
+      instructions: |
+        Always flag hardcoded passwords, API keys and secrets.
+        Check for empty input and division by zero.
